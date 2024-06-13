@@ -1,3 +1,145 @@
-header{
-    background-color: black;
+@import 'colores.scss';
+@import 'tamaños.scss';
+@import 'contenido.scss';
+@import 'tipografia.scss';
+
+
+body{ 
+    background-color: $fondo;
+    margin: 0;
+    @extend %body_flex;
+
+    header { 
+        background-color: $color_header;
+        @extend %tamaño_header;
+        @extend %header_flex;
+        
+        .h1{
+            color: $color_h1;
+            @extend %h1_letra;
+            @extend %tamaño_h1;
+            @extend %h1_flex;
+        }
+        .content-registro-login{
+            @extend %tamaño_box_registro;
+            @extend %box_registro_flex;
+        }
+        nav{  
+            width: 230px;
+            height: 40px;
+            .ul-registro-login{
+                color : $color_registro_login;
+                @extend %letra_registro_login;
+                @extend %tamaño_registro_login;
+                @extend %cont-registro-flex;
+                
+                .link-registro-inicio{
+                    @extend %letra_registro_login;
+                    margin: 10px;
+                    color : $color_registro_login;
+                    
+                }
+            }
+        }
+    }
+    .box-secciones-principales{
+        @extend %tamaño-navbar;
+        background-color : $color_navbar;
+        border: 1px , solid, black, ;
+        @extend %cont-box-secciones;
+        
+        .ul-enlaces-secciones{
+            @extend %tamaño-enlaces-secciones;
+            @extend %letra_ul_enlaces;
+            @extend %cont-ul-enlaces-flex;
+            background-color: $ul_enlaces_secciones_color;
+            .link-secciones{
+                @extend %letra_link_secciones;
+                color: rgb(186, 166, 207);
+            }
+        }
+    }
+    main{
+        background-color: rgb(168, 168, 168);
+        .grilla{
+            @extend %tamaño-grilla;
+            @extend %cont-grilla;
+            
+            .contenedor-imagenes{
+                background-color: $color_contenedor-img;
+                @extend %tamaño-contenedor-img;
+                border: 2px solid rgb(0, 0, 0);
+                border-radius: 10px;
+                @extend %cont-contenedor;
+                .primerh2{
+                    color: rgb(151, 151, 151);
+                    grid-area: h2;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center
+                }
+                .img{
+                @extend %tamaño-img;
+                border-radius: 4px;
+                }
+            }
+            .contenedor-parrafo{
+                @extend %tamaño-parrafo-bienvenida;
+                @extend %cont-parrafo-flex;
+                .titulo-bienvenida{
+                    color: $titulo_bienvenida;
+                    text-decoration: none;
+                    @extend %tamaño-titulo-bienvenida;
+                }
+                .parrafo-index{
+                    @extend%letra_parrafo-index;
+                    font-size: 20px;
+                    
+                }
+
+                
+            }
+        
+        
+        }
+
+    }
+    footer{
+        @extend %tamaño-footer;
+        background-color: rgb(49,49,49);
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
