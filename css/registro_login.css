@@ -1,0 +1,123 @@
+.cuadro-registro {
+  width: 100%;
+  height: 800px;
+}
+
+.cuadro-registro .container .cont-formulario {
+  height: 450px;
+  width: 450px;
+  margin-top: 100px;
+}
+
+.cuadro-registro .container .cont-formulario .form-group {
+  width: 320px;
+  height: 80px;
+  margin: 0;
+}
+
+.cuadro-registro .container {
+  width: 1300px;
+  height: 450;
+  padding: 0 12px 0 12px;
+  margin: o 280px 0 280px;
+}
+
+.cuadro-registro .container .cont-formulario .btn {
+  width: 100px;
+  height: 50px;
+  margin: 0;
+}
+
+.cuadro-registro .container .cont-formulario .form-group .form-control {
+  width: 320px;
+  height: 50px;
+}
+
+.cuadro-registro .container .cont-formulario h4 {
+  width: 230px;
+  height: 40px;
+  margin: 10px;
+}
+
+.cuadro-registro {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.cuadro-registro .container .cont-formulario {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.cuadro-registro .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cuadro-registro .container .cont-formulario .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.cuadro-registro .container .cont-formulario h4 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.cuadro-registro {
+  background: rgb(255, 255, 255);
+}
+.cuadro-registro .titulos-registro {
+  margin-top: 50px;
+}
+.cuadro-registro .container .falso-main {
+  width: 100vw;
+}
+.cuadro-registro .container .titulos-registro {
+  margin-top: 50px;
+}
+.cuadro-registro .container .titulos-registro span {
+  font-style: italic;
+  font-weight: 750;
+  color: rgb(75, 0, 124);
+}
+.cuadro-registro .container .titulos-registro h2 {
+  text-align: center;
+}
+.cuadro-registro .container .titulos-registro h3 {
+  font-size: large;
+  margin: 0;
+  text-align: center;
+}
+.cuadro-registro .container .cont-formulario {
+  background-color: rgb(245, 245, 245);
+  border: solid 2px rgb(245, 219, 255);
+  border-radius: 4px;
+}
+.cuadro-registro .container .cont-formulario h4 {
+  color: rgb(77, 77, 77);
+}
+.cuadro-registro .container .cont-formulario .form-group .form-control {
+  font-size: 18px;
+}
+.cuadro-registro .container .cont-formulario .boton-registro {
+  margin: 0 40px 0 0;
+}
+.cuadro-registro .container .cont-formulario .boton-iniciar-sesion {
+  margin-right: 30px;
+}
+.cuadro-registro .container .cont-formulario .checkbox {
+  width: 300px;
+  height: 25px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=registro_login.css.map */

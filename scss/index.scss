@@ -1,0 +1,50 @@
+@import 'colores.scss';
+@import 'tamaños.scss';
+@import 'contenido.scss';
+@import 'tipografia.scss';
+
+main{
+    background-color: rgb(168, 168, 168);
+    .grilla{
+        @extend %tamaño-grilla;
+        @extend %cont-grilla;
+        
+        .contenedor-imagenes{
+            background-color: $color_contenedor-img;
+            @extend %tamaño-contenedor-img;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 10px;
+            @extend %cont-contenedor;
+            .primerh2{
+                color: rgb(151, 151, 151);
+                grid-area: h2;
+                display: flex;
+                flex-direction: row;
+                justify-content: center
+            }
+            .img{
+            @extend %tamaño-img;
+            border-radius: 4px;
+            }
+        }
+        .contenedor-parrafo{
+            @extend %tamaño-parrafo-bienvenida;
+            @extend %cont-parrafo-flex;
+            .titulo-bienvenida{
+                color: $titulo_bienvenida;
+                text-decoration: none;
+                @extend %tamaño-titulo-bienvenida;
+            }
+            .parrafo-index{
+                @extend%letra_parrafo-index;
+                font-size: 20px;
+                
+            }
+
+            
+        }
+    
+    
+    }
+    
+}

@@ -65,6 +65,110 @@
     grid-area: contenedor-parrafo
 }
 
+%cont-footer{
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+%cont-redes{
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+%cont-texto-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+%cont-buscador-flex{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+%cont-nav-footer{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+//registro-login-----------------------------------------------------------------------------------
+
+%cont-flex-pagina-registro{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+%cont-form{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+%container-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+%cont-flex-formgroup{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

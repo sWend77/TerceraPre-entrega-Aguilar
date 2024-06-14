@@ -5,21 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
     <link rel="stylesheet" href="../css-btp/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="./scss/styles.scss">
+    <link rel="stylesheet" href="../css/styles_base.css">
+    <link rel="stylesheet" href="../scss/styles_base.scss">
 </head> 
 <body>
     <header>
-        <a class="h1" href="/index.html">MusecK</a>
+        <a class="h1" id="mi_h1" href="/index.html">MusecK</a>
         <div class="content-registro-login">
             <div class="buscador">
-                <input class="buscador-search" type="search" placeholder="Search"> 
+                <input class="buscador-search" type="search" placeholder="Buscar"> 
                 <input class="buscador-enviar" type="submit"> 
             </div>
             <nav>  
                 <ul class = "ul-registro-login">
                     <li>
-                        <a class="inicio"   href="../index.html">Inicio</a>
+                        <a class="inicio"   href="./registrarse.html">Registrarse</a>
                     </li>
                     <li>
                         <a class="link-registro-inicio" href="./login.html">Iniciar sesión</a>
@@ -28,17 +28,17 @@
             </nav>   
         </div>
     </header>
-    <main>
+    <div class="falso-main">
         <nav class="box-secciones-principales">   
             <ul class="ul-enlaces-secciones">
                 <li class="enlace-boton">
-                    <a class="link-secciones" href="./pages/guitarras.html">Guitarras y modelos</a>
+                    <a class="link-secciones" href="./guitarras.html">Guitarras y modelos</a>
                 </li>
                 <li class="enlace-boton">
-                    <a class="link-secciones" href="./pages/mercado.html">Mercado</a>
+                    <a class="link-secciones" href="./mercado.html">Mercado</a>
                 </li>
                 <li class="enlace-boton">
-                    <a class="link-secciones" href="./pages/novedades.html">Novedades</a>
+                    <a class="link-secciones" href="./novedades.html">Novedades</a>
                 </li>
             </ul>
         </nav>
@@ -62,11 +62,11 @@
                         <label for="email">Contraseña:</label>
                         <input type="password" class="form-control" id="pw" placeholder="Ingrese contraseña" name="contraseña">
                     </div>
-                    <button type="submit" class="btn btn-outline-dark">Registrar</button>
+                    <button type="submit" class="btn btn-outline-dark boton-registro">Registrar</button>
                 </form>
             </div>
         </div>
-    </main>
+    <div>
     <footer class="footer-sin-grilla">
         <p class="text text-redes">Redes:</p>
         <nav class="contenedor-redes">

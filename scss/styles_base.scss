@@ -1,0 +1,157 @@
+@import 'colores.scss';
+@import 'tamaños.scss';
+@import 'contenido.scss';
+@import 'tipografia.scss';
+@import 'index.scss';
+@import 'registro_login.scss';
+
+
+body{ 
+    background-color: $fondo;
+    margin: 0;
+    @extend %body_flex;
+
+    header { 
+        background-color: $color_header;
+        @extend %tamaño_header;
+        @extend %header_flex;
+        
+        .h1{
+            color: $color_h1;
+            @extend %h1_letra;
+            @extend %tamaño_h1;
+            @extend %h1_flex;
+        }
+        
+        .content-registro-login{
+            @extend %tamaño_box_registro;
+            @extend %box_registro_flex;
+
+            .buscador{
+                @extend %tamaño-contenedor-buscador;
+                @extend %cont-buscador-flex;
+                .buscador-search{
+                    @extend %letra-buscador;
+                    padding: 0;
+                    background: rgb(223, 188, 255);
+                    border: solid rgb(206, 132, 255) 2px;
+                    border-radius: 4px;
+                }
+                .buscador-enviar{
+                    height: 40px;
+                    color: white;
+                    background: black;
+                    margin-left: 5px;
+                }
+                
+            }
+            nav{  
+                width: 260px;
+                height: 50px;
+                .ul-registro-login{
+                    color : $color_registro_login;
+                    @extend %letra_registro_login;
+                    @extend %tamaño_registro_login;
+                    @extend %cont-registro-flex;
+                    
+                    .link-registro-inicio{
+                        @extend %letra_registro_login;
+                        margin: 10px;
+                        color : $color_registro_login;
+                        
+                    }
+                }
+            }
+        }
+    }
+    .box-secciones-principales{
+        @extend %tamaño-navbar;
+        background-color : $color_navbar;
+        border: 1px , solid, black, ;
+        @extend %cont-box-secciones;
+        
+        .ul-enlaces-secciones{
+            @extend %tamaño-enlaces-secciones;
+            @extend %letra_ul_enlaces;
+            @extend %cont-ul-enlaces-flex;
+            background-color: $ul_enlaces_secciones_color;
+            .link-secciones{
+                @extend %letra_link_secciones;
+                color: rgb(186, 166, 207);
+            }
+        }
+    }
+  
+    footer{
+        @extend %tamaño-footer;
+        background-color: rgb(49,49,49);
+        @extend %cont-footer;
+        .contenedor-redes{
+            width: 300px;
+            @extend %cont-nav-footer;
+            .redes{
+                width: 200px;
+                height: 80%;
+                padding: 0;
+                color: white;
+                @extend %cont-redes;
+                .redes-link{
+                    font-size: 25px;
+                    margin: 20px;
+                    text-decoration: none;
+                    color: rgb(249, 221, 255);
+                }
+            }
+        } 
+        .text{
+            font-size: 25px;
+            width: 150px;
+            color: white;
+            @extend %cont-texto-flex;
+        }
+        .text-redes{
+            width: 50px;
+            margin-bottom: 40px;
+        }
+            
+        .text-contact{
+            font-size: 20px;
+            width: 20%;
+            margin-left: 800px;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
