@@ -1,0 +1,111 @@
+@import 'colores.scss';
+@import 'tamaños.scss';
+@import 'contenido.scss';
+@import 'tipografia.scss';
+
+.container-fluid{
+    padding: 0;
+    .titulo-introductorio{
+        @extend %tamaño-titulo-introductorio;
+        @extend %letra-titulo-intro-guitarras;
+        @extend %cont-flex-titulo-introductorio;
+        color: rgb(43, 0, 83);
+    }
+    .title-guitarras{
+        width: 50%;
+        margin: 30px;
+        text-decoration: underline;
+        font-size: large;
+        display: flex;
+        justify-content: center;
+    }
+    .row{
+        @extend %tamaño-row;
+        @extend %cont-flex-row;
+        .img-guitarra1{
+            width: 60%;
+            height: 100%;
+            border-radius: 4px;
+            margin-left: 130px ;
+        }
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+.container-fluid .titulo-introductorio {
+  width: 100vw;
+  padding: 50px;
+}
+
+.container-fluid .row {
+  width: 100vw;
+  height: 100%;
+  padding-left: 150px;
+  margin-left: 0;
+}
+
+.container-fluid .titulo-introductorio {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.container-fluid .row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.container-fluid .titulo-introductorio {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  text-decoration: underline;
+}
+
+.container-fluid {
+  padding: 0;
+}
+.container-fluid .titulo-introductorio {
+  color: rgb(43, 0, 83);
+}
+.container-fluid .title-guitarras {
+  width: 50%;
+  margin: 30px;
+  text-decoration: underline;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+}
+.container-fluid .row .img-guitarra1 {
+  width: 60%;
+  height: 100%;
+  border-radius: 4px;
+  margin-left: 130px;
+}
+
+/*# sourceMappingURL=guitarras.css.map */

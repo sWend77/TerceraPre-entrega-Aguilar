@@ -3,14 +3,12 @@
 @import 'contenido.scss';
 @import 'tipografia.scss';
 
-
 .cuadro-registro{
     background: $color_registro_login;
     @extend %contenedor-cuadro-registro;
     @extend %cont-flex-pagina-registro;
     .titulos-registro{
         margin-top: 50px;
-
     }
     .container{
         @extend %tamaño-conteiner;

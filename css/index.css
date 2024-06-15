@@ -7,12 +7,12 @@ main .grilla {
 main .grilla .contenedor-imagenes .img {
   width: 200px;
   height: 130px;
-  margin: 5px;
+  margin: 8px;
 }
 
 main .grilla .contenedor-imagenes {
-  width: 90%;
-  height: 75%;
+  width: 95%;
+  height: 80%;
 }
 
 main .grilla .contenedor-parrafo {
@@ -70,6 +70,11 @@ main .grilla .contenedor-imagenes .primerh2 {
 }
 main .grilla .contenedor-imagenes .img {
   border-radius: 4px;
+}
+main .grilla .contenedor-imagenes .img:hover {
+  width: 230px;
+  height: 150px;
+  transition: all 1s;
 }
 main .grilla .contenedor-parrafo .titulo-bienvenida {
   color: rgb(80, 0, 133);

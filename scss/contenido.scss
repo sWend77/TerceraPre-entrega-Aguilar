@@ -124,11 +124,20 @@
     flex-direction: column;
 }
 
+//guitarras y modelos------------------------------------------------------------------------------
 
+%cont-flex-titulo-introductorio{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
 
+%cont-flex-row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 
-
-
+}
 
 
 

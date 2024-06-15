@@ -4,6 +4,7 @@
 @import 'tipografia.scss';
 @import 'index.scss';
 @import 'registro_login.scss';
+@import 'guitarras.scss';
 
 
 body{ 
@@ -12,21 +13,26 @@ body{
     @extend %body_flex;
 
     header { 
-        background-color: $color_header;
+        background: radial-gradient(ellipse 800px 100px, rgb(99, 99, 99) , $color_header);
         @extend %tamaño_header;
         @extend %header_flex;
         
         .h1{
             color: $color_h1;
-            @extend %h1_letra;
+            @extend %h1_letra; 
             @extend %tamaño_h1;
             @extend %h1_flex;
+                    
+        }
+        .h1:hover{
+            font-size: 70px;
+            transition: all 0.2s
         }
         
         .content-registro-login{
             @extend %tamaño_box_registro;
             @extend %box_registro_flex;
-
+            
             .buscador{
                 @extend %tamaño-contenedor-buscador;
                 @extend %cont-buscador-flex;
@@ -58,7 +64,10 @@ body{
                         @extend %letra_registro_login;
                         margin: 10px;
                         color : $color_registro_login;
-                        
+                    }
+                    .link-registro-inicio:hover{
+                        color: rgb(150, 69, 255);
+                        text-decoration: underline;
                     }
                 }
             }
@@ -79,12 +88,18 @@ body{
                 @extend %letra_link_secciones;
                 color: rgb(186, 166, 207);
             }
+            .link-secciones:hover{
+                font-size: 20px;
+                border: solid 2px rgb(221, 169, 255);
+                border-radius: 4px;
+                padding: 4px;
+            }
         }
     }
   
     footer{
         @extend %tamaño-footer;
-        background-color: rgb(49,49,49);
+        background: linear-gradient(to bottom, rgb(151, 151, 151), rgb(0, 0, 0) );
         @extend %cont-footer;
         .contenedor-redes{
             width: 300px;
@@ -96,7 +111,7 @@ body{
                 color: white;
                 @extend %cont-redes;
                 .redes-link{
-                    font-size: 25px;
+                    font-size: 20px;
                     margin: 20px;
                     text-decoration: none;
                     color: rgb(249, 221, 255);
@@ -104,7 +119,7 @@ body{
             }
         } 
         .text{
-            font-size: 25px;
+            font-size: 20px;
             width: 150px;
             color: white;
             @extend %cont-texto-flex;
@@ -117,7 +132,6 @@ body{
         .text-contact{
             font-size: 20px;
             width: 20%;
-            margin-left: 800px;
         }
     }
 
