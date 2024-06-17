@@ -67,4 +67,31 @@
   margin: 20px 0 90px 100px;
 }
 
+@media (max-width: 424px) {
+  #row-mobile {
+    width: 100vw;
+    height: 100%;
+    padding: 20px;
+  }
+  #row-mobile .img-guitarra1 {
+    width: 100%;
+    height: 400px;
+    margin: 0;
+  }
+  #row-mobile .img-guitarra2 {
+    width: 100%;
+    height: 550px;
+    margin: 0;
+  }
+  #row-mobile .img-guitarra3 {
+    width: 100%;
+    height: 500px;
+    margin: 0;
+  }
+  #row-mobile .videos {
+    width: 100%;
+    margin: 0;
+  }
+}
+
 /*# sourceMappingURL=guitarras.css.map */
