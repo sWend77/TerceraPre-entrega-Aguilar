@@ -1019,6 +1019,48 @@ body header .content-registro-login .buscador .buscador-search {
   justify-content: space-between;
 }
 
+@media (max-width: 424px) {
+  .falso-main {
+    width: 100vw;
+  }
+  .falso-main .cuadro-registro {
+    width: 100%;
+  }
+  .falso-main .cuadro-registro .titulos-registro {
+    width: 100%;
+    padding: 30px;
+    margin: 0;
+  }
+  .falso-main .cuadro-registro .titulos-registro h2 {
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 600;
+  }
+  .falso-main .cuadro-registro .titulos-registro h2 span {
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(80, 0, 133);
+  }
+  .falso-main .cuadro-registro .titulos-registro h3 {
+    font-size: 20px;
+    font-style: italic;
+  }
+  .falso-main .cuadro-registro .container {
+    width: 100%;
+    padding-top: 30px;
+  }
+  .falso-main .cuadro-registro .container .cont-formulario {
+    width: 90%;
+    margin: 0;
+  }
+  .falso-main .cuadro-registro .container .cont-formulario h4 {
+    width: 100%;
+    margin: 15px 0 0 15px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
 body header {
   width: 100vw;
   height: 120px;

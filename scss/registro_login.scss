@@ -75,9 +75,50 @@
 }
 //Version mobile registro y login----------------------------------------
 
+@media (max-width: 424px){
+    .falso-main{
+        width: 100vw;
+        .cuadro-registro{
+            width: 100%;
+            .titulos-registro{
+                width: 100%;
+                padding: 30px;
+                margin: 0;
+                h2{
+                    font-size: 30px;
+                    font-family: 'Times New Roman', Times, serif;
+                    font-weight: 600;
+                    span{
+                        font-weight: 700;
+                        font-style: italic;
+                        color: $titulo_bienvenida;
+                    }
+                }
+                h3{
+                    font-size: 20px;
+                    font-style: italic;
+                }
+            }
+            .container{
+                width: 100%;
+                padding-top: 30px;
+                .cont-formulario{
+                    width: 90%;
+                    margin: 0;
+                    h4{
+                        width:100%;
+                        margin: 15px 0 0 15px;
+                        font-family: 'Times New Roman', Times, serif;
+                        font-size: 30px;
+                        font-weight: 600;
 
+                    }
+                }
+            }
+        }
+    }
 
-
+}
 
 
 
