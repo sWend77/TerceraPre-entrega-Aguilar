@@ -68,47 +68,47 @@
 }
 
 // Version movil 424 px pagina 'novedades'--------------------------------------
-
-main{
-    width: 100vw;
-    height: 100%;
-    .contenedor-novedades{
+@media (max-width: 424px){
+    main{
         width: 100vw;
         height: 100%;
-        .contenedor-noticia{
+        .contenedor-novedades{
             width: 100vw;
             height: 100%;
-            background: rgb(29, 29, 29);
-            display:flex;
-            flex-flow: column;
-            justify-content: center;
-            align-content: center ;
-            .caja-noticia{
-                width: 92%;
-                height: 50%;
-                margin: 15px;
-                border: solid 2px rgb(175, 2, 255);
+            .contenedor-noticia{
+                width: 100vw;
+                height: 100%;
                 background: rgb(29, 29, 29);
-                .img-video-noticia{
-                    margin:20px;
-                }
-                h2{
-                    width: 95%;
-                    color: rgb(161, 118, 218);
-                    margin: 10px;
-                    display: flex;
-                    flex-flow: row wrap;
-                    justify-content: center;
-                }
-                p{
-                    color: white;
-                    margin: 20px;
+                display:flex;
+                flex-flow: column;
+                justify-content: center;
+                align-content: center ;
+                .caja-noticia{
+                    width: 92%;
+                    height: 50%;
+                    margin: 15px;
+                    border: solid 2px rgb(175, 2, 255);
+                    background: rgb(29, 29, 29);
+                    .img-video-noticia{
+                        margin:20px;
+                    }
+                    h2{
+                        width: 95%;
+                        color: rgb(161, 118, 218);
+                        margin: 10px;
+                        display: flex;
+                        flex-flow: row wrap;
+                        justify-content: center;
+                    }
+                    p{
+                        color: white;
+                        margin: 20px;
+                    }
                 }
             }
         }
     }
 }
-
 
 
 
