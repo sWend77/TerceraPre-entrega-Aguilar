@@ -7,6 +7,28 @@
 @import 'guitarras.scss';
 @import 'novedades.scss';
 
+@mixin sizes ($width,$heigth,$padding,$margin){
+    width: $width;
+    height: $heigth;
+    padding: $padding;
+    margin: $margin;
+}
+
+@mixin flex ($display,$flex_flow,$justify_content,$align_content){
+    display: $display;
+    flex-direction: $flex_flow;
+    justify-content: $justify_content;
+    align-content: $align_content;
+}
+
+@mixin tipografia ($font_size,$font_weight,$font_family,$font_style,$color){
+    font-size: $font_size;
+    font-weight: $font_weight;
+    font-family: $font_family;
+    font-style: $font_style;
+    color: $color;
+}
+
 
 body{ 
     background-color: $fondo;
@@ -16,15 +38,15 @@ body{
 
     header { 
         background: radial-gradient(ellipse 800px 100px, rgb(99, 99, 99) , $color_header);
-        @extend %tamaño_header;
-        @extend %header_flex;
+        @include sizes(100vw,120px,0,0);
+        @include flex (flex,row wrap,space-between,0);
         
         .h1{
             color: $color_h1;
-            @extend %h1_letra; 
-            @extend %tamaño_h1;
-            @extend %h1_flex;
-                    
+            @include tipografia (60px,600,0,italic,0); 
+            @include sizes (200px,65px,0,0 0 0 25px);
+            @include flex (flex,row wrap,center, 0);
+            text-decoration: none;
         }
         .h1:hover{
             font-size: 70px;
@@ -32,11 +54,11 @@ body{
         }
         
         .content-registro-login{
-            @extend %tamaño_box_registro;
+            @include sizes (300px, 100%,0,0);
             @extend %box_registro_flex;
             
             .buscador{
-                @extend %tamaño-contenedor-buscador;
+                @include sizes(270px,40px,0,10px);
                 @extend %cont-buscador-flex;
                 .buscador-search{
                     @extend %letra-buscador;
@@ -54,7 +76,7 @@ body{
                 
             }
             nav{  
-                width: 260px;
+                width: 290px;
                 height: 50px;
                 .ul-registro-login{
                     color : $color_registro_login;
@@ -148,26 +170,40 @@ body{
     #header-mobile {
         width: 100vw;
         height: 200px;
+        display: flex;
+        flex-flow: column;
         #h1-mobile {
-            width: 100%;
-            margin: 15px;
+            width: 95%;
+            height: 50%;
+            padding: 10px;
+            margin: 0;
         }
         #content-registro-mobile{
             width: 100%;
             height: 100px;
+            padding: 0;
+            margin: 0;
             display:flex;
             flex-flow: column wrap;
             align-content: center;
             #buscador-mobile{
-                padding-left: 60px;
-                margin: 0;
+                @include sizes(100%,40px,0,0);
+                @include flex(flex,row,center,0);
                 .buscador-search{
-                    width: 60%;
+                    width: 30%;
+                    height: 40px;
                 }
             }
             nav{
+                width: 100%;
+                height: 40px;
                 #ul-registro-mobile{
-                    margin: 7px 0 0 37px;
+                    width: 100%;
+                    height: 30px;
+                    margin: 0;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
                 }
             }
 
@@ -241,7 +277,7 @@ body{
 
         }
     }
-    }
+}
 
 
 
