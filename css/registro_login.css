@@ -143,8 +143,10 @@
     color: rgb(80, 0, 133);
   }
   .falso-main .cuadro-registro .titulos-registro h3 {
-    font-size: 20px;
-    font-style: italic;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
+    padding: 20px 0 0 40px;
   }
   .falso-main .cuadro-registro .container {
     width: 100%;
