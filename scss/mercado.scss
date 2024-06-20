@@ -8,13 +8,13 @@
 
 .contenedor-mercado{
     background: rgb(39, 39, 39);
-    @include sizes (100vw,100vh,0,0);
+    @include sizes (100vw,100%,0,0);
     .contenedor-publicidad{
         @include sizes (100%,250px,0,0);
         @include flex (flex,row, space-between,0);
         .buscador-guitarras{
             background: rgb(46, 46, 46);
-            @include sizes (75%,94%,0px,20px 20px 0 20px);
+            @include sizes (75%,94%,0px,10px 20px 0 20px);
             @include flex (flex, column, center, center);
             .box-busqueda{
                 @include sizes (100%,50px,0,0);
@@ -40,12 +40,67 @@
             background-size: cover;
             background-position: center;
             animation: imagenesPublicidades 100s infinite;
-            @include sizes (25%,93.3%,0,20px 20px 10px 0);
+            @include sizes (25%,93.3%,0,20px 20px 20px 0);
         }
     }
     .contenedor-publicaciones{
         background: rgb(189, 189, 189);
-        @include sizes (97.8%,65%,0,3px 20px 10px 20px);
+        @include sizes (98%,100%,0,3px 20px 10px 10px);
+        .caja-publicaciones{
+            background: rgb(189, 189, 189);
+            @include sizes (97%,100%,0,0 30px 10px 30px);
+            border: solid 1px black ;
+            .publicaciones{
+                background: rgb(36, 36, 36);
+                @include sizes (100%,25%,0,0);
+                @include flex (flex,row,space-between,0);
+                border: solid 1px grey;
+                .caja-titulo{
+                    margin: 0 30px 0 30px;
+                    h2{
+                        font-size: 25px;
+                        margin-top: 5px;
+                        color: violet;
+                    }
+                    h3{
+                        color: rgb(255, 255, 255);
+                        
+                    }
+                    .input-comprar{
+                        @include sizes(90px,40px,0,10px);
+                        font-size: 15px;
+                        font-weight: 600;
+                        background: rgb(158, 151, 253);
+                    }
+                    .input-agregar{
+                        @include sizes(120px,40px,0,0);
+                    }
+                }
+                .descripcion{
+                    width: 70%;
+                    p{
+                        color: white;
+                        font-size: 18px;
+                    }
+                }   
+                .img-1{
+                    @include sizes (9%,80%,0,15px 30px 15px 30px);
+                    border-radius: 10px;
+                }
+                .img-2{
+                    @include sizes (10%,80%,0,15px 30px 10px 30px);
+                    border-radius: 10px;
+                }
+                .img-3{
+                    @include sizes (10%,80%,0,15px 30px 10px 30px);
+                    border-radius: 10px;
+                }
+                .img-4{
+                    @include sizes (10%,80%,0,15px 30px 10px 30px);
+                    border-radius: 10px;
+                }
+            }
+        }
     }
 }
 
@@ -72,6 +127,23 @@
         }
         .contenedor-publicaciones{
             @include sizes (97.7%,100%,0,5px);
+            .caja-publicaciones{
+                @include sizes (100%,100%,0,0);
+                @include flex (flex,column,center,center);
+                .publicaciones{
+                    @include sizes (100%,100%,0,0);
+                    @include flex (flex,column,none,none);
+                    .caja-titulo{
+                        padding-left: 50px; 
+                    }
+                    .descripcion{
+                        padding-left: 70px;
+                    }
+                    .img-1,.img-2,.img-3,.img-4{
+                        @include sizes(50%,3%,0,20px 0 0 100px);
+                    }
+                }
+            }
         }
     }
 

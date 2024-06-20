@@ -323,7 +323,7 @@
 .contenedor-mercado {
   background: rgb(39, 39, 39);
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   padding: 0;
   margin: 0;
 }
@@ -342,7 +342,7 @@
   width: 75%;
   height: 94%;
   padding: 0px;
-  margin: 20px 20px 0 20px;
+  margin: 10px 20px 0 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -386,14 +386,95 @@
   width: 25%;
   height: 93.3%;
   padding: 0;
-  margin: 20px 20px 10px 0;
+  margin: 20px 20px 20px 0;
 }
 .contenedor-mercado .contenedor-publicaciones {
   background: rgb(189, 189, 189);
-  width: 97.8%;
-  height: 65%;
+  width: 98%;
+  height: 100%;
   padding: 0;
-  margin: 3px 20px 10px 20px;
+  margin: 3px 20px 10px 10px;
+}
+.contenedor-mercado .contenedor-publicaciones .caja-publicaciones {
+  background: rgb(189, 189, 189);
+  width: 97%;
+  height: 100%;
+  padding: 0;
+  margin: 0 30px 10px 30px;
+  border: solid 1px black;
+}
+.contenedor-mercado .contenedor-publicaciones .caja-publicaciones .publicaciones {
+  background: rgb(36, 36, 36);
+  width: 100%;
+  height: 25%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: 0;
+  border: solid 1px grey;
+}
+.contenedor-mercado .contenedor-publicaciones .caja-publicaciones .publicaciones .caja-titulo {
+  margin: 0 30px 0 30px;
+}
+.contenedor-mercado .contenedor-publicaciones .caja-publicaciones .publicaciones .caja-titulo h2 {
+  font-size: 25px;
+  margin-top: 5px;
+  color: violet;
+}
+.contenedor-mercado .contenedor-publicaciones .caja-publicaciones .publicaciones .caja-titulo h3 {
+  color: rgb(255, 255, 255);
+}
+.contenedor-mercado .contenedor-publicaciones .caja-publicaciones .publicaciones .caja-titulo .input-comprar {
+  width: 90px;
+  height: 40px;
+  padding: 0;
+  margin: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  background: rgb(158, 151, 253);
+}
+.contenedor-mercado .contenedor-publicaciones .caja-publicaciones .publicaciones .caja-titulo .input-agregar {
+  width: 120px;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+}
+.contenedor-mercado .contenedor-publicaciones .caja-publicaciones .publicaciones .descripcion {
+  width: 70%;
+}
+.contenedor-mercado .contenedor-publicaciones .caja-publicaciones .publicaciones .descripcion p {
+  color: white;
+  font-size: 18px;
+}
+.contenedor-mercado .contenedor-publicaciones .caja-publicaciones .publicaciones .img-1 {
+  width: 9%;
+  height: 80%;
+  padding: 0;
+  margin: 15px 30px 15px 30px;
+  border-radius: 10px;
+}
+.contenedor-mercado .contenedor-publicaciones .caja-publicaciones .publicaciones .img-2 {
+  width: 10%;
+  height: 80%;
+  padding: 0;
+  margin: 15px 30px 10px 30px;
+  border-radius: 10px;
+}
+.contenedor-mercado .contenedor-publicaciones .caja-publicaciones .publicaciones .img-3 {
+  width: 10%;
+  height: 80%;
+  padding: 0;
+  margin: 15px 30px 10px 30px;
+  border-radius: 10px;
+}
+.contenedor-mercado .contenedor-publicaciones .caja-publicaciones .publicaciones .img-4 {
+  width: 10%;
+  height: 80%;
+  padding: 0;
+  margin: 15px 30px 10px 30px;
+  border-radius: 10px;
 }
 
 @media (max-width: 424px) {
@@ -433,6 +514,38 @@
     height: 100%;
     padding: 0;
     margin: 5px;
+  }
+  .contenedor-mercado .contenedor-publicaciones .caja-publicaciones {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  .contenedor-mercado .contenedor-publicaciones .caja-publicaciones .publicaciones {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    align-content: none;
+  }
+  .contenedor-mercado .contenedor-publicaciones .caja-publicaciones .publicaciones .caja-titulo {
+    padding-left: 50px;
+  }
+  .contenedor-mercado .contenedor-publicaciones .caja-publicaciones .publicaciones .descripcion {
+    padding-left: 70px;
+  }
+  .contenedor-mercado .contenedor-publicaciones .caja-publicaciones .publicaciones .img-1, .contenedor-mercado .contenedor-publicaciones .caja-publicaciones .publicaciones .img-2, .contenedor-mercado .contenedor-publicaciones .caja-publicaciones .publicaciones .img-3, .contenedor-mercado .contenedor-publicaciones .caja-publicaciones .publicaciones .img-4 {
+    width: 50%;
+    height: 3%;
+    padding: 0;
+    margin: 20px 0 0 100px;
   }
 }
 
