@@ -81,11 +81,6 @@
 .cuadro-registro .container .titulos-registro {
   margin-top: 50px;
 }
-.cuadro-registro .container .titulos-registro span {
-  font-style: italic;
-  font-weight: 750;
-  color: rgb(75, 0, 124);
-}
 .cuadro-registro .container .titulos-registro h2 {
   text-align: center;
 }

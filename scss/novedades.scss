@@ -2,54 +2,39 @@
 @import 'tamaños.scss';
 @import 'contenido.scss';
 @import 'tipografia.scss';
-
-
+@import 'mixins.scss';
 
 .contenedor-novedades{
-    width: 100vw;
-    height: 100%;
+    @include sizes (100vw,100%,none,none);
     background-color: rgb(53, 53, 53);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    @include flex (flex,row,center,none);
     .contenedor-noticia{
-        width: 90%;
-        height: 100vh;
+        @include sizes (90%,100vh,none,none);
         background-color: rgb(29, 29, 29);
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        @include flex (flex,row,center,none);
         .caja-noticia{
-            width: 40%;
-            height: 80%;
+            @include sizes (40%,80%,none,30px 10px 0 10px);
             background-color: rgb(29, 29, 29);
             border: 2px solid rgb(175, 2, 255);
             border-radius: 4px;
-            margin: 30px 10px 0 10px;
-            display: flex;
-            flex-direction: column;
+            @include flex (flex,column,none,none);
             h2{
                 width: 100%;
                 font-size: 20px;
                 color: rgb(161, 118, 218);
-                display: flex;
-                flex-flow: row;
-                justify-content: center;
+                @include flex(flex,row,center,none);
             }
             .img-video-noticia{
-                width: 90%;
-                height: 35%;
                 border-radius: 4px;
-                margin: 25px;
+                @include sizes (90%,35%,none,25px);
             }
         }   .noticia1,.noticia2,.noticia3{
             width: 80%;
             height: 30%;
+            @include sizes (80%,30%,none,0 30px 0 55px);
             font-size: 18px;
             display: flex;
             flex-wrap: wrap;
-            margin: 0 30px 0 55px;
-            
             p{
                 color:white;
             }
@@ -60,9 +45,7 @@
                 flex-direction: row;
                 justify-content: center;
                 .vermas{
-                    width: 150px;
-                    height: 40px;
-                    margin: 0;
+                    @include sizes (150px,40px,none,0);
                     font-size: 17px;
                     background-color: rgb(231, 206, 255);
                     border: 1px solid rgb(0, 0, 0);
@@ -86,27 +69,18 @@
                 width: 100vw;
                 height: 100%;
                 background: rgb(29, 29, 29);
-                display:flex;
-                flex-flow: column;
-                justify-content: center;
-                align-content: center ;
+                @include flex(flex,column,center,center);
                 .caja-noticia{
-                    width: 92%;
-                    height: 50%;
-                    margin: 15px;
+                    @include sizes (92%,50%,none,15px);
                     border: solid 2px rgb(175, 2, 255);
                     background: rgb(29, 29, 29);
                     .img-video-noticia{
                         margin:20px;
                     }
                     h2{
-                        width: 90%;
+                        @include sizes(90%,none,10px,10px);
                         color: rgb(161, 118, 218);
-                        margin: 10px;
-                        padding: 10px;
-                        display: flex;
-                        flex-flow: row;
-                        justify-content: center;
+                        @include flex(flex,row,center,none);
                     }
                     .noticia1,.noticia2,.noticia3{    
                         width: 100%;

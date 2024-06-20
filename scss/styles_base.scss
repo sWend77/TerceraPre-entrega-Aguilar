@@ -19,7 +19,9 @@ body{
         background: radial-gradient(ellipse 800px 100px, rgb(99, 99, 99) , $color_header);
         @include sizes(100vw,120px,0,0);
         @include flex (flex,row wrap,space-between,0);
-        
+        h1{
+            margin: 0;
+        }
         .h1{
             color: $color_h1;
             @include tipografia (60px,600,0,italic,0); 
