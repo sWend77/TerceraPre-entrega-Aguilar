@@ -543,7 +543,8 @@ main {
 }
 main .grilla .contenedor-imagenes {
   background-color: rgb(39, 39, 39);
-  border: 2px solid rgb(0, 0, 0);
+  animation: decoContenedorIndex 4s infinite;
+  border: 2px solid rgb(162, 0, 255);
   border-radius: 10px;
 }
 main .grilla .contenedor-imagenes .primerh2 {
@@ -1926,6 +1927,311 @@ body header .content-registro-login .buscador .buscador-search {
   text-decoration: underline;
 }
 
+@keyframes decoContenedorIndex {
+  0% {
+    background: radial-gradient(ellipse 0% 0%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  1% {
+    background: radial-gradient(ellipse 0.5% 0.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  2% {
+    background: radial-gradient(ellipse 1% 1%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  3% {
+    background: radial-gradient(ellipse 1.5% 1.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  4% {
+    background: radial-gradient(ellipse 2% 2%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  5% {
+    background: radial-gradient(ellipse 2.5% 2.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  6% {
+    background: radial-gradient(ellipse 3% 3%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  7% {
+    background: radial-gradient(ellipse 3.5% 3.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  8% {
+    background: radial-gradient(ellipse 4% 4%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  9% {
+    background: radial-gradient(ellipse 4.5% 4.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  10% {
+    background: radial-gradient(ellipse 5% 5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  11% {
+    background: radial-gradient(ellipse 5.5% 5.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  12% {
+    background: radial-gradient(ellipse 6% 6%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  13% {
+    background: radial-gradient(ellipse 6.5% 6.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  14% {
+    background: radial-gradient(ellipse 7% 7%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  15% {
+    background: radial-gradient(ellipse 7.5% 7.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  16% {
+    background: radial-gradient(ellipse 8% 8%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  17% {
+    background: radial-gradient(ellipse 8.5% 8.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  18% {
+    background: radial-gradient(ellipse 9% 9%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  19% {
+    background: radial-gradient(ellipse 9.5% 9.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  20% {
+    background: radial-gradient(ellipse 10% 10%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  21% {
+    background: radial-gradient(ellipse 10.5% 10.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  22% {
+    background: radial-gradient(ellipse 11% 11%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  23% {
+    background: radial-gradient(ellipse 11.5% 11.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  24% {
+    background: radial-gradient(ellipse 12% 12%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  25% {
+    background: radial-gradient(ellipse 12.5% 12.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  26% {
+    background: radial-gradient(ellipse 13% 13%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  27% {
+    background: radial-gradient(ellipse 13.5% 13.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  28% {
+    background: radial-gradient(ellipse 14% 14%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  29% {
+    background: radial-gradient(ellipse 14.5% 14.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  30% {
+    background: radial-gradient(ellipse 15% 15%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  31% {
+    background: radial-gradient(ellipse 15.5% 15.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  32% {
+    background: radial-gradient(ellipse 16% 16%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  33% {
+    background: radial-gradient(ellipse 16.5% 16.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  34% {
+    background: radial-gradient(ellipse 17% 17%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  35% {
+    background: radial-gradient(ellipse 17.5% 17.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  36% {
+    background: radial-gradient(ellipse 18% 18%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  37% {
+    background: radial-gradient(ellipse 18.5% 18.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  38% {
+    background: radial-gradient(ellipse 19% 19%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  39% {
+    background: radial-gradient(ellipse 19.5% 19.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  40% {
+    background: radial-gradient(ellipse 20% 20%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  41% {
+    background: radial-gradient(ellipse 20.5% 20.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  42% {
+    background: radial-gradient(ellipse 21% 21%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  43% {
+    background: radial-gradient(ellipse 21.5% 21.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  44% {
+    background: radial-gradient(ellipse 22% 22%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  45% {
+    background: radial-gradient(ellipse 22.5% 22.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  46% {
+    background: radial-gradient(ellipse 23% 23%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  47% {
+    background: radial-gradient(ellipse 23.5% 23.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  48% {
+    background: radial-gradient(ellipse 24% 24%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  49% {
+    background: radial-gradient(ellipse 24.5% 24.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  50% {
+    background: radial-gradient(ellipse 25% 25%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  51% {
+    background: radial-gradient(ellipse 25.5% 25.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  52% {
+    background: radial-gradient(ellipse 26% 26%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  53% {
+    background: radial-gradient(ellipse 26.5% 26.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  54% {
+    background: radial-gradient(ellipse 27% 27%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  55% {
+    background: radial-gradient(ellipse 27.5% 27.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  56% {
+    background: radial-gradient(ellipse 28% 28%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  57% {
+    background: radial-gradient(ellipse 28.5% 28.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  58% {
+    background: radial-gradient(ellipse 29% 29%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  59% {
+    background: radial-gradient(ellipse 29.5% 29.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  60% {
+    background: radial-gradient(ellipse 30% 30%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  61% {
+    background: radial-gradient(ellipse 30.5% 30.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  62% {
+    background: radial-gradient(ellipse 31% 31%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  63% {
+    background: radial-gradient(ellipse 31.5% 31.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  64% {
+    background: radial-gradient(ellipse 32% 32%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  65% {
+    background: radial-gradient(ellipse 32.5% 32.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  66% {
+    background: radial-gradient(ellipse 33% 33%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  67% {
+    background: radial-gradient(ellipse 33.5% 33.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  68% {
+    background: radial-gradient(ellipse 34% 34%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  69% {
+    background: radial-gradient(ellipse 34.5% 34.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  70% {
+    background: radial-gradient(ellipse 35% 35%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  71% {
+    background: radial-gradient(ellipse 35.5% 35.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  72% {
+    background: radial-gradient(ellipse 36% 36%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  73% {
+    background: radial-gradient(ellipse 36.5% 36.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  74% {
+    background: radial-gradient(ellipse 37% 37%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  75% {
+    background: radial-gradient(ellipse 37.5% 37.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  76% {
+    background: radial-gradient(ellipse 38% 38%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  77% {
+    background: radial-gradient(ellipse 38.5% 38.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  78% {
+    background: radial-gradient(ellipse 39% 39%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  79% {
+    background: radial-gradient(ellipse 39.5% 39.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  80% {
+    background: radial-gradient(ellipse 40% 40%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  81% {
+    background: radial-gradient(ellipse 40.5% 40.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  82% {
+    background: radial-gradient(ellipse 41% 41%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  83% {
+    background: radial-gradient(ellipse 41.5% 41.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  84% {
+    background: radial-gradient(ellipse 42% 42%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  85% {
+    background: radial-gradient(ellipse 42.5% 42.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  86% {
+    background: radial-gradient(ellipse 43% 43%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  87% {
+    background: radial-gradient(ellipse 43.5% 43.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  88% {
+    background: radial-gradient(ellipse 44% 44%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  89% {
+    background: radial-gradient(ellipse 44.5% 44.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  90% {
+    background: radial-gradient(ellipse 45% 45%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  91% {
+    background: radial-gradient(ellipse 45.5% 45.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  92% {
+    background: radial-gradient(ellipse 46% 46%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  93% {
+    background: radial-gradient(ellipse 46.5% 46.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  94% {
+    background: radial-gradient(ellipse 47% 47%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  95% {
+    background: radial-gradient(ellipse 47.5% 47.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  96% {
+    background: radial-gradient(ellipse 48% 48%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  97% {
+    background: radial-gradient(ellipse 48.5% 48.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  98% {
+    background: radial-gradient(ellipse 49% 49%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  99% {
+    background: radial-gradient(ellipse 49.5% 49.5%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+  100% {
+    background: radial-gradient(ellipse 50% 50%, rgb(230, 176, 255), rgb(39, 39, 39));
+  }
+}
 @keyframes imagenesPublicidades {
   0% {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjChCazRtbVfy2IDCJ7NM_rhxUgmhOrpGqpg&s");

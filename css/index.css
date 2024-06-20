@@ -58,7 +58,8 @@ main {
 }
 main .grilla .contenedor-imagenes {
   background-color: rgb(39, 39, 39);
-  border: 2px solid rgb(0, 0, 0);
+  animation: decoContenedorIndex 4s infinite;
+  border: 2px solid rgb(162, 0, 255);
   border-radius: 10px;
 }
 main .grilla .contenedor-imagenes .primerh2 {
