@@ -1,0 +1,21 @@
+@mixin sizes ($width,$heigth,$padding,$margin){
+    width: $width;
+    height: $heigth;
+    padding: $padding;
+    margin: $margin;
+}
+
+@mixin flex ($display,$flex_flow,$justify_content,$align_content){
+    display: $display;
+    flex-direction: $flex_flow;
+    justify-content: $justify_content;
+    align-content: $align_content;
+}
+
+@mixin tipografia ($font_size,$font_weight,$font_family,$font_style,$color){
+    font-size: $font_size;
+    font-weight: $font_weight;
+    font-family: $font_family;
+    font-style: $font_style;
+    color: $color;
+}

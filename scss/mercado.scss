@@ -1,0 +1,132 @@
+@import 'colores.scss';
+@import 'tamaños.scss';
+@import 'contenido.scss';
+@import 'tipografia.scss';
+@import 'mixins.scss';
+@import 'animaciones.scss';
+
+
+.contenedor-mercado{
+    background: rgb(39, 39, 39);
+    @include sizes (100vw,100vh,0,0);
+    .contenedor-publicidad{
+        @include sizes (100%,250px,0,0);
+        @include flex (flex,row, space-between,0);
+        .buscador-guitarras{
+            background: rgb(46, 46, 46);
+            @include sizes (75%,94%,0px,20px 20px 0 20px);
+            @include flex (flex, column, center, center);
+            .box-busqueda{
+                @include sizes (100%,50px,0,0);
+                @include flex (flex,row,center,0);
+                .search-input{
+                    @include sizes (60%,100%,10px,0);
+                    font-size: 16px ;
+                    border: solid 1px rgb(140, 0, 255);
+                    border-radius: 10px;
+                }
+                .search-submit{
+                    @include sizes (70px,45px,0,0);
+                    background: rgb(232, 175, 255);
+                    font-size: 16px;
+                    border: solid 2px rgb(140, 0, 255);
+                    border-radius: 10px;
+                     margin: 2px;
+                }
+            }
+        }
+        .publicidad{
+            background-image: url("https://i.pinimg.com/originals/ff/50/1a/ff501a2b1b87194375a46d9fc26662ba.jpg");
+            background-size: cover;
+            background-position: center;
+            animation: imagenesPublicidades 100s infinite;
+            @include sizes (25%,93.3%,0,20px 20px 10px 0);
+        }
+    }
+    .contenedor-publicaciones{
+        background: rgb(189, 189, 189);
+        @include sizes (97.8%,65%,0,3px 20px 10px 20px);
+    }
+}
+
+
+
+
+//Version movil pagina 'mercado'------------------------------------------------------------------------------------------
+
+@media (max-width: 424px){
+    .contenedor-mercado{
+        @include flex (flex,column,center,center);
+        .contenedor-publicidad{
+            @include sizes (100%,60%,0,0);
+            @include flex (flex,column,center,center);
+            .buscador-guitarras{
+                @include sizes(90%,120px,0,20px);
+            }
+            .publicidad{
+                @include sizes (93%,248px,0,15px);
+                background: url("https://i.pinimg.com/originals/ff/50/1a/ff501a2b1b87194375a46d9fc26662ba.jpg");
+                background-size: cover;
+                background-position: center;
+            }
+        }
+        .contenedor-publicaciones{
+            @include sizes (97.7%,100%,0,5px);
+        }
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
