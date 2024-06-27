@@ -1,13 +1,13 @@
-@import 'colores.scss';
-@import 'tamaños.scss';
-@import 'contenido.scss';
-@import 'tipografia.scss';
+@import '_colores.scss';
+@import '_tamaños.scss';
+@import '_contenido.scss';
+@import '_tipografia.scss';
 @import 'index.scss';
 @import 'registro_login.scss';
 @import 'guitarras.scss';
 @import 'novedades.scss';
 @import 'mercado.scss';
-@import 'mixins.scss';
+@import '_mixins.scss';
 
 body{ 
     background-color: $fondo;
