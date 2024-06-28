@@ -52,11 +52,13 @@
   width: 25%;
   height: 600px;
   margin-right: 200px;
+  border-radius: 4px;
 }
 .container-fluid .row .img-guitarra3 {
   width: 45%;
   height: 90%;
   margin: 30px 0 0 120px;
+  border-radius: 4px;
 }
 .container-fluid .row h4 {
   margin: 40px;
@@ -65,6 +67,7 @@
   width: 50%;
   height: 200px;
   margin: 20px 0 90px 100px;
+  border-radius: 4px;
 }
 
 @media (max-width: 424px) {

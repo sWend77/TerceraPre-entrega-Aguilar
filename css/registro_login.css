@@ -1,118 +1,124 @@
-.cuadro-registro {
+.falso-main .cuadro-registro {
   width: 100%;
   height: 800px;
 }
 
-.cuadro-registro .container .cont-formulario {
+.falso-main .container .cont-formulario {
   height: 450px;
   width: 450px;
   margin-top: 100px;
 }
 
-.cuadro-registro .container .cont-formulario .form-group {
+.falso-main .container .cont-formulario .form-group {
   width: 320px;
   height: 80px;
   margin: 0;
 }
 
-.cuadro-registro .container {
+.falso-main .container {
   width: 1300px;
   height: 450;
   padding: 0 12px 0 12px;
   margin: o 280px 0 280px;
 }
 
-.cuadro-registro .container .cont-formulario .btn {
+.falso-main .container .cont-formulario .btn {
   width: 100px;
   height: 50px;
   margin: 20px;
 }
 
-.cuadro-registro .container .cont-formulario .form-group .form-control {
+.falso-main .container .cont-formulario .form-group .form-control {
   width: 320px;
   height: 50px;
 }
 
-.cuadro-registro .container .cont-formulario h4 {
-  width: 230px;
-  height: 40px;
-  margin: 10px;
-}
-
-.cuadro-registro {
+.falso-main .cuadro-registro {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
 }
 
-.cuadro-registro .container .cont-formulario {
+.falso-main .container .cont-formulario {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 
-.cuadro-registro .container {
+.falso-main .container {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.cuadro-registro .container .cont-formulario .form-group {
+.falso-main .container .cont-formulario .form-group {
   display: flex;
   flex-direction: column;
 }
 
-.cuadro-registro .container .cont-formulario h4 {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 35px;
-  font-weight: 600;
-}
-
-.cuadro-registro {
-  background: rgb(255, 255, 255);
-}
-.cuadro-registro .titulos-registro {
-  margin-top: 50px;
-}
-.cuadro-registro .container .falso-main {
+.falso-main {
   width: 100vw;
 }
-.cuadro-registro .container .titulos-registro {
+.falso-main .cuadro-registro {
+  background: rgb(255, 255, 255);
+}
+.falso-main .cuadro-registro .titulos-registro {
   margin-top: 50px;
 }
-.cuadro-registro .container .titulos-registro h2 {
+.falso-main .cuadro-registro .titulos-registro h2 {
   text-align: center;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
 }
-.cuadro-registro .container .titulos-registro h3 {
-  font-size: large;
-  margin: 0;
-  text-align: center;
+.falso-main .cuadro-registro .titulos-registro h2 span {
+  font-weight: 800;
+  font-style: italic;
+  color: rgb(80, 0, 133);
 }
-.cuadro-registro .container .cont-formulario {
+.falso-main .cuadro-registro .titulos-registro h3 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  padding: 20px 0 0 40px;
+}
+.falso-main .container .cont-formulario {
   background-color: rgb(245, 245, 245);
   border: solid 2px rgb(245, 219, 255);
   border-radius: 4px;
 }
-.cuadro-registro .container .cont-formulario h4 {
-  color: rgb(77, 77, 77);
+.falso-main .container .cont-formulario h4 {
+  width: 100%;
+  margin: 15px 0 0 60px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 600;
 }
-.cuadro-registro .container .cont-formulario .form-group .form-control {
+.falso-main .container .cont-formulario .form-group .form-control {
   font-size: 18px;
+  border: solid 1px rgb(207, 207, 207);
 }
-.cuadro-registro .container .cont-formulario .boton-registro {
+.falso-main .container .cont-formulario .boton-registro {
   margin: 0 40px 0 0;
 }
-.cuadro-registro .container .cont-formulario .boton-iniciar-sesion {
+.falso-main .container .cont-formulario .boton-iniciar-sesion {
   margin-right: 30px;
+  border: solid 1px black;
 }
-.cuadro-registro .container .cont-formulario .checkbox {
+.falso-main .container .cont-formulario .checkbox {
   width: 300px;
   height: 25px;
   margin-left: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.falso-main .footer-sin-grilla .text-redes {
+  margin-bottom: 15px;
+}
+.falso-main .footer-sin-grilla .contenedor-redes .redes a .redes-link {
+  margin: 30px 10px 10px 10px;
 }
 
 @media (max-width: 424px) {

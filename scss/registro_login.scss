@@ -3,71 +3,96 @@
 @import '_contenido.scss';
 @import '_tipografia.scss';
 
-.cuadro-registro{
-    background: $color_registro_login;
-    @extend %contenedor-cuadro-registro;
-    @extend %cont-flex-pagina-registro;
-    .titulos-registro{
-        margin-top: 50px;
-    }
-    .container{
-        @extend %tamaño-conteiner;
-        @extend %container-flex;
-        .falso-main{
-            width: 100vw;
-        }
-        .titulos-registro{
-            margin-top: 50px;
-            h2{
-                text-align: center;
-            }
-            h3{
-                font-size: large;
-                margin: 0;
-                text-align: center;
-            }
-        }
-        .cont-formulario{
-            @extend %tamaño-form;
-            background-color: rgb(245, 245, 245);
-            border: solid 2px rgb(245, 219, 255);
-            border-radius: 4px;
-            @extend %cont-form;
-            
-            h4{
-                @extend %tamaño-h4-form;
-                @extend %letra-h4-registro;
-                color: rgb(77, 77, 77);
-                
-            }
-            .form-group{
-                @extend %tamaño-form-group;
-                @extend %cont-flex-formgroup;
-                .form-control{
-                    font-size: 18px;
-                    @extend %tamaño-form-control;
+
+    .falso-main{
+        width: 100vw;
+        .cuadro-registro{
+            background: $color_registro_login;
+            @extend %contenedor-cuadro-registro;
+            @extend %cont-flex-pagina-registro;
+            .titulos-registro{
+                margin-top: 50px;
+                h2{
+                    text-align: center;
+                    font-size: 40px;
+                    font-family: 'Times New Roman', Times, serif;
+                    font-weight: 600;
+                    span{
+                        font-weight: 800;
+                        font-style: italic;
+                        color: $titulo_bienvenida;
+                    }
+                }
+                h3{
+                    font-size: 30px;
+                    font-weight:600 ;
+                    font-family: 'Times New Roman', Times, serif;
+                    padding: 20px 0 0 40px ;
                 }
             }
-            .btn{
-                @extend %tamaño-btn;
+        }
+            .container{
+                @extend %tamaño-conteiner;
+                @extend %container-flex;
+                .cont-formulario{
+                    @extend %tamaño-form;
+                    background-color: rgb(245, 245, 245);
+                    border: solid 2px rgb(245, 219, 255);
+                    border-radius: 4px;
+                    @extend %cont-form;
+                        
+                    h4{
+                        width:100%;
+                        margin: 15px 0 0 60px;
+                        font-family: 'Times New Roman', Times, serif;
+                        font-size: 30px;
+                        font-weight: 600;
+                            
+                    }
+                    .form-group{
+                        @extend %tamaño-form-group;
+                        @extend %cont-flex-formgroup;
+                        .form-control{
+                            font-size: 18px;
+                            @extend %tamaño-form-control;
+                            border: solid 1px rgb(207, 207, 207);
+                        }
+                    }
+                    .btn{
+                        @extend %tamaño-btn;
+                    }
+                    .boton-registro{
+                        margin: 0 40px 0 0;
+                    }
+                    .boton-iniciar-sesion{
+                        margin-right: 30px;
+                        border: solid 1px black;
+                    }
+                    .checkbox{
+                        width: 300px;
+                        height: 25px;
+                        margin-left: 30px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                    }
+                }
             }
-            .boton-registro{
-                margin: 0 40px 0 0;
+        .footer-sin-grilla{
+            .text-redes{
+                margin-bottom: 15px;
             }
-            .boton-iniciar-sesion{
-                margin-right: 30px;
-            }
-            .checkbox{
-                width: 300px;
-                height: 25px;
-                margin-left: 30px;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
+            .contenedor-redes{
+                .redes{
+                    a{
+                        .redes-link{
+                            margin: 30px 10px 10px 10px;
+                        }
+                    }
+                }
             }
         }
     }
-}
 //Version mobile registro y login----------------------------------------
 
 @media (max-width: 424px){

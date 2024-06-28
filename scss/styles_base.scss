@@ -8,7 +8,7 @@
 @import 'novedades.scss';
 @import 'mercado.scss';
 @import '_mixins.scss';
-@import 'index.html';
+
 
 body{ 
     background-color: $fondo;
@@ -23,7 +23,7 @@ body{
         h1{
             margin: 0;
         }
-        .h1 {
+        .h1{
             color: $color_h1;
             @include tipografia (60px,600,0,italic,0); 
             @include sizes (200px,65px,0,0 0 0 25px);
@@ -116,7 +116,11 @@ body{
                 padding: 0;
                 color: white;
                 @extend %cont-redes;
-                
+                .redes-link{
+                    font-size: 40px;
+                    color: #ffd8fd;
+                    margin: 10px;
+                }
             }
         } 
         .text{
@@ -138,7 +142,6 @@ body{
             justify-content: end;
         }
     }
-
 }
 
 //Version movil index-------------------------------------------------------------------------
