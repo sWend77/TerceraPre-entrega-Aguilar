@@ -8,6 +8,7 @@
 @import 'novedades.scss';
 @import 'mercado.scss';
 @import '_mixins.scss';
+@import 'index.html';
 
 body{ 
     background-color: $fondo;
@@ -22,7 +23,7 @@ body{
         h1{
             margin: 0;
         }
-        .h1{
+        .h1 {
             color: $color_h1;
             @include tipografia (60px,600,0,italic,0); 
             @include sizes (200px,65px,0,0 0 0 25px);
@@ -115,12 +116,7 @@ body{
                 padding: 0;
                 color: white;
                 @extend %cont-redes;
-                .redes-link{
-                    font-size: 20px;
-                    margin: 20px;
-                    text-decoration: none;
-                    color: rgb(249, 221, 255);
-                }
+                
             }
         } 
         .text{
@@ -205,6 +201,11 @@ body{
                     width: 160px;
                     height: 110px;
                     margin: 0 0 15px 25px;
+                }
+                .img:hover{
+                    width: 170px;
+                    height: 120px;
+                    transition: all 1s;
                 }
             }
             .contenedor-parrafo{
