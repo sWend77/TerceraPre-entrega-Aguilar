@@ -40,7 +40,8 @@
             background-size: cover;
             background-position: center;
             animation: imagenesPublicidades 100s infinite;
-            @include sizes (25%,93.3%,0,20px 20px 20px 0);
+            @include sizes (25%,90.0%,0,20px 30px 10px 0);
+            border-radius: 4px;
         }
     }
     .contenedor-publicaciones{

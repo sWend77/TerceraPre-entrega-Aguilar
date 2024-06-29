@@ -114,10 +114,11 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.falso-main .footer-sin-grilla .text-redes {
+
+.footer-sin-grilla .text-redes {
   margin-bottom: 15px;
 }
-.falso-main .footer-sin-grilla .contenedor-redes .redes a .redes-link {
+.footer-sin-grilla .contenedor-redes .redes a .redes-link {
   margin: 30px 10px 10px 10px;
 }
 

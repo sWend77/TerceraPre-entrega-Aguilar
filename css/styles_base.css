@@ -861,10 +861,11 @@ body header .content-registro-login .buscador .buscador-search {
   flex-direction: row;
   justify-content: space-between;
 }
-.falso-main .footer-sin-grilla .text-redes {
+
+.footer-sin-grilla .text-redes {
   margin-bottom: 15px;
 }
-.falso-main .footer-sin-grilla .contenedor-redes .redes a .redes-link {
+.footer-sin-grilla .contenedor-redes .redes a .redes-link {
   margin: 30px 10px 10px 10px;
 }
 
@@ -2277,9 +2278,10 @@ body header .content-registro-login .buscador .buscador-search {
   background-position: center;
   animation: imagenesPublicidades 100s infinite;
   width: 25%;
-  height: 93.3%;
+  height: 90%;
   padding: 0;
-  margin: 20px 20px 20px 0;
+  margin: 20px 30px 10px 0;
+  border-radius: 4px;
 }
 .contenedor-mercado .contenedor-publicaciones {
   background: rgb(189, 189, 189);
