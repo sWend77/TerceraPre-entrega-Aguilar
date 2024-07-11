@@ -2500,6 +2500,7 @@ body header .content-registro-login .buscador .buscador-search {
   background: rgb(223, 188, 255);
   border: solid rgb(206, 132, 255) 2px;
   border-radius: 4px;
+  margin-left: 20px;
 }
 body header .content-registro-login .buscador .buscador-enviar {
   width: 30px;
