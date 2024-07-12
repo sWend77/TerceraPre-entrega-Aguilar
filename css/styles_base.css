@@ -2548,14 +2548,14 @@ body footer .contenedor-redes {
 }
 body footer .contenedor-redes .redes {
   width: 80%;
-  height: 80%;
+  height: 50%;
   padding: 0;
   color: white;
 }
 body footer .contenedor-redes .redes .redes-link {
-  font-size: 40px;
+  font-size: 30px;
   color: #ffd8fd;
-  margin: 10px;
+  margin: 15px;
 }
 body footer .text {
   font-size: 20px;

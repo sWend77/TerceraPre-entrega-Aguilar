@@ -114,14 +114,14 @@ body{
             @extend %cont-nav-footer;
             .redes{
                 width: 80%;
-                height: 80%;
+                height: 50%;
                 padding: 0;
                 color: white;
                 @extend %cont-redes;
                 .redes-link{
-                    font-size: 40px;
+                    font-size: 30px;
                     color: #ffd8fd;
-                    margin: 10px;
+                    margin: 15px;
                 }
             }
         } 
