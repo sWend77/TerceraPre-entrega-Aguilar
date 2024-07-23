@@ -3028,7 +3028,7 @@ body footer .text-contact {
     transition: all 1s;
   }
   main .grilla .contenedor-parrafo #h2title {
-    margin: 0;
+    margin: 15px;
   }
 }
 @media (max-width: 459px) {
